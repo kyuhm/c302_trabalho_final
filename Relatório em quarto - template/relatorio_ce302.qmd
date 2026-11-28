@@ -2,11 +2,15 @@
 title: "Título do Trabalho: Uma Análise Estatística de [Tema]"
 subtitle: "CE302 — Elementos de Programação para Estatística"
 author:
-  - name: "Nome do Aluno 1"
+  - name: "Eduardo Lemos Sa"
     affiliation: "Departamento de Estatística, UFPR"
-  - name: "Nome do Aluno 2"
+  - name: "Emmanuelle Maia Peclat"
     affiliation: "Departamento de Estatística, UFPR"
-  - name: "Nome do Aluno 3"
+  - name: "Emily Yatanabe"
+    affiliation: "Departamento de Estatística, UFPR"
+- name: "Kelly Huang"
+    affiliation: "Departamento de Estatística, UFPR"
+- name: "Shirley Espejo"
     affiliation: "Departamento de Estatística, UFPR"
 date: today
 date-format: "DD/MM/YYYY"
