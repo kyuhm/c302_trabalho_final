@@ -5,7 +5,7 @@ library(dplyr)
 library(tidyr)
 library(readr)
 
-#Puxando os dados
+# Puxando os dados
 url <- "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/textiles.csv"
 if (!file.exists("tex.csv")) download.file(url, "tex.csv", mode = "wb", quiet = TRUE)
 dados <- read_csv("tex.csv", show_col_types = FALSE) %>% arrange(Year)
