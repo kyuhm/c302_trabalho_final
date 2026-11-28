@@ -90,7 +90,7 @@ ui <- dashboardPage(
           valueBoxOutput("caixa3", width = 4)
         ),
         fluidRow(
-          box(title = "Produção Anual", width = 12, status = "primary",
+          box(title = "Produção anual de fio e tecido (mil t)", width = 12, status = "primary",
               plotlyOutput("plot1", height = "420px"))
         ),
         fluidRow(
@@ -104,9 +104,9 @@ ui <- dashboardPage(
           valueBoxOutput("caixa5", width = 6)
         ),
         fluidRow(
-          box(title = "Composição do Fio", width = 6, status = "info",
+          box(title = "Composição do fio por tipo de fibra (%)", width = 6, status = "info",
               plotlyOutput("plot2", height = "400px")),
-          box(title = "Algodão x Seda", width = 6, status = "primary",
+          box(title = "Fio de algodão e seda crua (seda em escala log)", width = 6, status = "primary",
               plotlyOutput("plot3", height = "400px"))
         ),
         fluidRow(
